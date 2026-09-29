@@ -10,3 +10,6 @@ jobs:
     steps:
       - name: print welcome massage
         run: echo " welcome the first workflow pipeline "
+      
+      - name: print home directory
+        run: ls -la
