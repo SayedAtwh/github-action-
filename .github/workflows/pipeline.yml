@@ -10,6 +10,9 @@ jobs:
     steps:
       - name: print welcome massage
         run: echo " welcome the first workflow pipeline "
+      - name: Checkout scm
+        uses: actions/checkout@v7
+
       
       - name: print home directory
         run: ls -la
