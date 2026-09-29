@@ -21,7 +21,7 @@ jobs:
       - name: touch file in the folder sayed
         run: echo "sayedatwh">> sayed/file1
       - name: cat file1
-        run: cat file1
+        run: cat sayed/file1
 
   third-job: 
     runs-on: ubuntu-latest
